@@ -1,0 +1,38 @@
+{
+  "canonical_fields": [
+    "id",
+    "dataset",
+    "museum",
+    "title",
+    "creator",
+    "creator_id",
+    "creator_nationality",
+    "date_display",
+    "year_start",
+    "year_end",
+    "period",
+    "place",
+    "region",
+    "country",
+    "culture",
+    "classification",
+    "object_type",
+    "medium",
+    "materials",
+    "dimensions",
+    "description",
+    "provenance",
+    "inscription",
+    "themes",
+    "image_url",
+    "local_image",
+    "object_url",
+    "credit_line",
+    "source_dataset"
+  ],
+  "notes": {
+    "period": "derived from year_start",
+    "arrays_in_csv": "materials and themes are pipe-delimited",
+    "long_text": "provenance and description capped at 1200 chars in combined_objects.csv"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "title": "What Do Museums Remember?",
+  "subtitle": "An exploration of the objects, people, places and stories preserved in museum collections.",
+  "principle": {
+    "zoomed_out": "data",
+    "zoomed_in": "story",
+    "loop": [
+      "object",
+      "collection",
+      "pattern",
+      "people",
+      "place",
+      "archive",
+      "gaps",
+      "object"
+    ]
+  },
+  "data_files": {
+    "objects": "03_DATA/processed/combined_objects.csv",
+    "moma_indian": "03_DATA/processed/moma_indian_makers.csv",
+    "source_manifest": "07_SOURCE_CREDITS/SOURCE_MANIFEST.csv",
+    "teenie_keywords": "03_DATA/processed/teenie_title_keyword_frequencies.csv"
+  },
+  "chapters": [
+    {
+      "id": "01",
+      "title": "WHAT DO MUSEUMS REMEMBER?",
+      "state": "hero_object",
+      "data_mode": "qualitative"
+    },
+    {
+      "id": "02",
+      "title": "ONE OBJECT BECOMES A COLLECTION",
+      "state": "collection_growth",
+      "data_mode": "quantitative"
+    },
+    {
+      "id": "03",
+      "title": "WHAT DO MUSEUMS COLLECT?",
+      "state": "taxonomy_clusters",
+      "data_mode": "quantitative"
+    },
+    {
+      "id": "04",
+      "title": "WHEN DOES THE MUSEUM REMEMBER?",
+      "state": "timeline",
+      "data_mode": "mixed"
+    },
+    {
+      "id": "05",
+      "title": "WHO GETS REMEMBERED?",
+      "state": "creator_field",
+      "data_mode": "mixed"
+    },
+    {
+      "id": "06",
+      "title": "WHERE DOES CULTURE COME FROM?",
+      "state": "geography",
+      "data_mode": "mixed"
+    },
+    {
+      "id": "07",
+      "title": "INDIAN MAKERS, ONE COLLECTION",
+      "state": "moma_indian",
+      "data_mode": "qualitative"
+    },
+    {
+      "id": "08",
+      "title": "ONE LENS, MANY LIVES",
+      "state": "teenie_archive",
+      "data_mode": "mixed"
+    },
+    {
+      "id": "09",
+      "title": "FROM NUMBERS TO STORIES",
+      "state": "macro_micro_loop",
+      "data_mode": "mixed"
+    },
+    {
+      "id": "10",
+      "title": "WHAT IS MISSING?",
+      "state": "missingness",
+      "data_mode": "quantitative"
+    },
+    {
+      "id": "11",
+      "title": "RETURN TO THE OBJECT",
+      "state": "ending_object",
+      "data_mode": "qualitative"
+    }
+  ],
+  "interaction": {
+    "scroll": "narrative progression",
+    "hover": "preview",
+    "click": "inspect",
+    "tap": "inspect",
+    "keyboard": "Enter/Space inspect; Escape close",
+    "zoom_out": "quantitative",
+    "zoom_in": "qualitative"
+  },
+  "performance": {
+    "virtualize": true,
+    "lazy_images": true,
+    "high_res_on_select": true,
+    "avoid_full_dom_for_thousands": true
+  },
+  "accessibility": {
+    "keyboard": true,
+    "focus_visible": true,
+    "reduced_motion": true,
+    "no_color_only": true,
+    "touch_targets": true,
+    "alt_text": true
+  }
+}

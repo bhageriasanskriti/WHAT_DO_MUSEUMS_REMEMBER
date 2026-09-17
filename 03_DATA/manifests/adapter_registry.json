@@ -1,0 +1,35 @@
+{
+  "aic": {
+    "source": "artic_allArtworks_expanded.csv",
+    "object_id": "id",
+    "image": "image_link",
+    "record_source": "api_link"
+  },
+  "cmoa": {
+    "source": "cmoa.csv",
+    "object_id": "id",
+    "object_url": "web_url",
+    "image": "image_url",
+    "duplicate_id_policy": "append accession_number to canonical ID"
+  },
+  "teenie": {
+    "source": "teenie.csv",
+    "object_id": "id",
+    "object_url": "web_url",
+    "image": "image_url"
+  },
+  "nga": {
+    "source": "opendata-main/data/objects.csv",
+    "object_id": "objectid",
+    "image_join": "published_images.depictstmsobjectid → uuid/iiifurl",
+    "creator_join": "objects_constituents → constituents",
+    "terms_join": "objects_terms",
+    "text_join": "objects_text_entries"
+  },
+  "moma": {
+    "source": "Artworks.csv",
+    "object_id": "ObjectID",
+    "object_url": "URL",
+    "image": "ImageURL"
+  }
+}

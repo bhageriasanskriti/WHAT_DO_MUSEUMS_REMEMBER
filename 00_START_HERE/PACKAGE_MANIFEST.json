@@ -1,0 +1,18 @@
+{
+  "project": "WHAT DO MUSEUMS REMEMBER?",
+  "package_version": "2.0-coder-ready",
+  "purpose": "Research, processed data, narrative, interaction, visual and build specification for a single-page interactive museum data exhibition.",
+  "website_not_included": true,
+  "canonical_processed_dataset": "03_DATA/processed/combined_objects.csv",
+  "canonical_object_count": 504349,
+  "datasets": [
+    {"id":"aic","institution":"Art Institute of Chicago","records":122435},
+    {"id":"cmoa","institution":"Carnegie Museum of Art","records":28269},
+    {"id":"teenie","institution":"Teenie Harris Archive / Carnegie Museum of Art","records":59031},
+    {"id":"moma","institution":"The Museum of Modern Art","records":155916},
+    {"id":"nga","institution":"National Gallery of Art","records":138698}
+  ],
+  "missing_supplied_dataset": "met_india_metadata.csv",
+  "raw_data_policy": "Raw files are preserved and must not be edited.",
+  "build_entrypoint": "starter-prompt.md"
+}
