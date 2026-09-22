@@ -1,0 +1,8 @@
+{
+  "name": "What Do Museums Remember?",
+  "description": "An interactive digital exhibition exploring the objects, people, places and stories preserved across 504,349 museum collection records.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
